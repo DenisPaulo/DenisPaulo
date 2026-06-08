@@ -14,17 +14,17 @@
 <br>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DenisPaulo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DenisPaulo&layout=compact&langs_count=6&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DenisPaulo&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DenisPaulo&layout=compact&langs_count=6&theme=radical"/>
 </div>
 
 ---
 
 ## 🚀 Sobre Mim
 
-Profissional com experiência real em **automação industrial e robótica** (ABB, PLCs, manutenção preditiva) que está migrando para o universo de **Inteligência Artificial e Ciência de Dados**.
+Profissional com experiência real em **automação industrial e robótica** (ABB, PLCs, manutenção preditiva) migrando para **Inteligência Artificial e Ciência de Dados**.
 
-Atualmente estudo IA na FIAP e desenvolvo projetos que unem meu conhecimento de fábrica com Python, análise de dados e machine learning — especialmente em **Agricultura Digital** e **Manutenção Preditiva Industrial**.
+Estudo IA na FIAP e desenvolvo projetos que unem meu conhecimento de fábrica com Python, análise de dados e machine learning — com foco em **Agricultura Digital** e **Manutenção Preditiva Industrial**.
 
 ---
 
@@ -40,14 +40,12 @@ Atualmente estudo IA na FIAP e desenvolvo projetos que unem meu conhecimento de 
 ### Machine Learning & Visualização
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6B00?style=for-the-badge)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
 ### IoT & Hardware
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 
 ### Automação Industrial (Diferencial)
-**Robótica ABB** • **PLCs** (Rockwell, Siemens, Omron) • **Inversores** • **Manutenção Preditiva** • **NR-12**
+**Robótica ABB** • **PLCs** (Rockwell, Siemens, Omron) • **Inversores** • **Manutenção Preditiva**
 
 </div>
 
@@ -58,7 +56,7 @@ Atualmente estudo IA na FIAP e desenvolvo projetos que unem meu conhecimento de 
 ### 🌱 FarmTech Solutions – Irrigação Inteligente para Cafeicultura
 **FIAP | Fase 2**
 
-Sistema de irrigação inteligente baseado nas recomendações da Embrapa. Monitora umidade, pH e NPK em tempo real, aciona bomba automaticamente e considera previsão de chuva via API.
+Sistema de irrigação inteligente baseado nas recomendações da Embrapa. Monitora umidade, pH e NPK em tempo real + previsão de chuva via API.
 
 **Tecnologias:** ESP32 (C++), Python, R + ggplot2, OpenWeather API
 
@@ -68,17 +66,9 @@ Sistema de irrigação inteligente baseado nas recomendações da Embrapa. Monit
 
 ### 🤖 InduMind AI – Manutenção Preditiva com Machine Learning *(Em desenvolvimento)*
 
-Dashboard com modelos de ML para detectar anomalias e prever falhas em equipamentos industriais (bombas, motores e robôs).
+Dashboard com modelos de ML para detectar anomalias e prever falhas em equipamentos industriais.
 
-**Tecnologias:** Python, Streamlit, XGBoost, dados de sensores industriais
-
-*(Repositório em breve)*
-
----
-
-### 🎲 Cubo Mágico Interativo *(Em desenvolvimento)*
-
-Simulador completo de cubo de Rubik em Python com Pygame, solver, timer e sistema de undo.
+**Tecnologias:** Python, Streamlit, XGBoost
 
 *(Repositório em breve)*
 
@@ -91,14 +81,15 @@ Simulador completo de cubo de Rubik em Python com Pygame, solver, timer e sistem
 
 - Manutenção e otimização de robôs ABB (disponibilidade >98%)
 - Programação e diagnóstico de CLPs Rockwell, Siemens e Omron
-- Estratégias de manutenção preditiva e sistemas automatizados
+- Estratégias de manutenção preditiva
 
 ---
 
 ## 🎓 Formação
 
-- **Tecnólogo em Inteligência Artificial** — FIAP (2026–2028) — *Em andamento*
-- **Análise e Desenvolvimento de Software** — FAM (2021–2023)
+- **Tecnólogo em Inteligência Artificial** — FIAP São Paulo (Fev 2026 – Dez 2028) — *Em andamento*
+- **Análise e Desenvolvimento de Software** — Centro Universitário FAM (Ago 2021 – Dez 2023)
+- **Técnico em Eletrotécnica** — Instituto Edson (2014 – 2015)
 
 ---
 
