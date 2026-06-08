@@ -45,7 +45,7 @@ Estudo IA na FIAP e desenvolvo projetos que unem meu conhecimento de fábrica co
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge)
 
 ### Automação Industrial (Diferencial)
-**Robótica ABB** • **PLCs** (Rockwell, Siemens, Omron) • **Inversores** • **Manutenção Preditiva**
+**Robótica ABB** • **PLCs** (Rockwell, Siemens, Omron) • **Inversores** • **Manutenção Corretiva e Preditiva**
 
 </div>
 
@@ -81,7 +81,7 @@ Dashboard com modelos de ML para detectar anomalias e prever falhas em equipamen
 
 - Manutenção e otimização de robôs ABB (disponibilidade >98%)
 - Programação e diagnóstico de CLPs Rockwell, Siemens e Omron
-- Estratégias de manutenção preditiva
+- Estratégias de manutenção corretiva e preditiva
 
 ---
 
@@ -105,5 +105,5 @@ Dashboard com modelos de ML para detectar anomalias e prever falhas em equipamen
 <br>
 
 <div align="center">
-  <img src="https://github.com/DenisPaulo/DenisPaulo/blob/output/github-contribution-grid-snake.svg"/>
+<img src="https://raw.githubusercontent.com/DenisPaulo/DenisPaulo/output/github-contribution-grid-snake.svg"/>
 </div>
