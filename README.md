@@ -1,7 +1,7 @@
 <div align="center">
-  <h1>👋 Olá, eu sou o Denis Paulo!</h1>
-  <h3>Técnico em Automação Industrial | Estudante de Inteligência Artificial na FIAP</h3>
-  <p><strong>Construindo soluções inteligentes que unem robótica, dados e machine learning</strong></p>
+  <h1>👋 Denis Paulo</h1>
+  <h3>Técnico em Automação Industrial → Inteligência Artificial</h3>
+  <p>Transformando experiência de chão de fábrica em soluções inteligentes com Python, Dados e Machine Learning</p>
 
   <a href="https://www.linkedin.com/in/denispaulodiassilva/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -22,112 +22,97 @@
 
 ## 🚀 Sobre Mim
 
-Profissional com sólida experiência prática em **automação industrial**, robótica e manutenção preditiva, atualmente em transição para **Ciência de Dados e Inteligência Artificial**. 
+Profissional com experiência real em **automação industrial e robótica** (ABB, PLCs, manutenção preditiva) que está migrando para o universo de **Inteligência Artificial e Ciência de Dados**.
 
-Atuo na Saint-Gobain Sekurit com robôs ABB (disponibilidade >98%), CLPs Rockwell, Siemens e Omron, inversores de frequência e estratégias de manutenção preditiva. Essa vivência no chão de fábrica me dá uma vantagem única: entendo na prática os problemas reais de equipamentos industriais e agrícolas, e agora estou aplicando Python, R e Machine Learning para criar soluções que aumentam eficiência, reduzem custos e evitam falhas.
-
-Estou construindo projetos em **Agricultura Digital (FarmTech)** e **Manutenção Preditiva Industrial (InduMind AI)**, combinando sensores IoT, análise de dados e modelos preditivos.
+Atualmente estudo IA na FIAP e desenvolvo projetos que unem meu conhecimento de fábrica com Python, análise de dados e machine learning — especialmente em **Agricultura Digital** e **Manutenção Preditiva Industrial**.
 
 ---
 
-## 💼 Experiência Profissional
+## 🛠️ Tecnologias & Habilidades
 
-### Técnico em Manutenção Eletroeletrônica | Saint-Gobain Sekurit
-**Março 2023 – Presente | Mauá, SP**
+<div align="center">
 
-- Manutenção e otimização de robôs industriais ABB com alta disponibilidade
-- Programação, diagnóstico e troubleshooting de CLPs (Rockwell MicroLogix, Siemens, Omron)
-- Atuação com inversores de frequência (SEW, PowerFlex, Kinetix) e CNC Fanuc
-- Implementação de práticas de manutenção preditiva e cumprimento de NR-12
-- Diagnóstico elétrico/eletrônico em sistemas automatizados de produção
+### Linguagens & Dados
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### Elettricista de Manutenção Industrial | Proeng (at Bridgestone)
-**Outubro 2022 – Março 2023**
+### Machine Learning & Visualização
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6B00?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-- Manutenção corretiva e preventiva em sistemas elétricos industriais
+### IoT & Hardware
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 
-### Elettricista Predial | Etig
-**Julho 2021 – Setembro 2022**
+### Automação Industrial (Diferencial)
+**Robótica ABB** • **PLCs** (Rockwell, Siemens, Omron) • **Inversores** • **Manutenção Preditiva** • **NR-12**
 
-- Manutenção de painéis elétricos e termografia
-
----
-
-## 🛠️ Habilidades Técnicas
-
-**Linguagens & Análise de Dados**
-- Python (Pandas, NumPy, Scikit-learn, XGBoost, Streamlit, Matplotlib/Plotly)
-- R (Análise estatística, ggplot2, tomada de decisão baseada em dados)
-- SQL (Oracle)
-
-**IoT & Hardware**
-- ESP32, sensores (DHT22, LDR, etc.), Wokwi
-- Integração com APIs externas (OpenWeatherMap)
-
-**Automação Industrial (diferencial competitivo)**
-- Robótica ABB
-- PLCs (Rockwell, Siemens, Omron)
-- Inversores de frequência e drives
-- Manutenção Preditiva e NR-12
-- CNC Fanuc
-
-**Ferramentas**
-- Git & GitHub • Jupyter Notebook • RStudio • VS Code • Oracle Cloud
+</div>
 
 ---
 
 ## 🌟 Projetos em Destaque
 
-### 🌱 FarmTech Solutions – Irrigação Inteligente para Cafeicultura (Fase 2)
-**FIAP | Grupo**  
-[Ver repositório](https://github.com/DenisPaulo/fase2-farmtech-irrigacao-cafe)
+### 🌱 FarmTech Solutions – Irrigação Inteligente para Cafeicultura
+**FIAP | Fase 2**
 
-Protótipo funcional de sistema de irrigação inteligente baseado nas recomendações técnicas da Embrapa. Monitora umidade do solo, pH e níveis NPK em tempo real, aciona a bomba automaticamente e suspende a irrigação com base na previsão de chuva via API OpenWeather.
+Sistema de irrigação inteligente baseado nas recomendações da Embrapa. Monitora umidade, pH e NPK em tempo real, aciona bomba automaticamente e considera previsão de chuva via API.
 
-**Tecnologias:** ESP32 (C++), Python, R + ggplot2, OpenWeather API, Wokwi (simulação)
+**Tecnologias:** ESP32 (C++), Python, R + ggplot2, OpenWeather API
 
-**Destaques:** Lógica 100% alinhada com dados agronômicos reais + análise estatística completa + gráficos gerados automaticamente.
+[Ver Repositório](https://github.com/DenisPaulo/fase2-farmtech-irrigacao-cafe)
 
 ---
 
-### 🤖 InduMind AI – Dashboard de Manutenção Preditiva *(Em desenvolvimento)*
-Dashboard interativo com modelos de Machine Learning para detecção de anomalias e previsão de vida útil restante (RUL) em equipamentos industriais (bombas, motores, robôs).
+### 🤖 InduMind AI – Manutenção Preditiva com Machine Learning *(Em desenvolvimento)*
 
-**Tecnologias planejadas:** Python, Streamlit/Plotly, XGBoost, Isolation Forest, dados de sensores industriais
+Dashboard com modelos de ML para detectar anomalias e prever falhas em equipamentos industriais (bombas, motores e robôs).
 
-*(Vou criar o repositório em breve com README completo + dashboard funcional)*
+**Tecnologias:** Python, Streamlit, XGBoost, dados de sensores industriais
+
+*(Repositório em breve)*
 
 ---
 
 ### 🎲 Cubo Mágico Interativo *(Em desenvolvimento)*
-Simulador completo de cubo de Rubik 3x3 em Python com Pygame: solver, timer, função undo, scramble e interface visual.
 
-**Objetivo:** Demonstrar lógica de programação, algoritmos, gerenciamento de estado e interface gráfica.
+Simulador completo de cubo de Rubik em Python com Pygame, solver, timer e sistema de undo.
 
-*(Repositório em preparação)*
+*(Repositório em breve)*
+
+---
+
+## 💼 Experiência
+
+**Técnico em Manutenção Eletroeletrônica** — Saint-Gobain Sekurit  
+*Março 2023 – Presente*
+
+- Manutenção e otimização de robôs ABB (disponibilidade >98%)
+- Programação e diagnóstico de CLPs Rockwell, Siemens e Omron
+- Estratégias de manutenção preditiva e sistemas automatizados
 
 ---
 
 ## 🎓 Formação
 
-- **Tecnólogo em Inteligência Artificial** — FIAP São Paulo (2026 – 2028) — *Em andamento*
-- **Análise e Desenvolvimento de Software** — Centro Universitário FAM (2021 – 2023)
-
----
-
-## 📫 Vamos conversar?
-
-Estou aberto a oportunidades em:
-- Desenvolvedor Júnior de IA / ML / Dados
-- Engenheiro de Dados / Analytics
-- Especialista em IA aplicada à Indústria 4.0 ou Manutenção Preditiva
-- Projetos de Agrotech / FarmTech
-- Papéis que unam Automação Industrial + Dados / IA
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/denispaulodiassilva/)
+- **Tecnólogo em Inteligência Artificial** — FIAP (2026–2028) — *Em andamento*
+- **Análise e Desenvolvimento de Software** — FAM (2021–2023)
 
 ---
 
 <div align="center">
-  <img src="https://github.com/DenisPaulo/DenisPaulo/blob/output/github-contribution-grid-snake.svg" alt="Contribution Snake"/>
+  <h3>📫 Vamos conversar?</h3>
+  <p>Aberto a oportunidades em IA, Dados, Automação Inteligente e Agrotech</p>
+  
+  <a href="https://www.linkedin.com/in/denispaulodiassilva/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github.com/DenisPaulo/DenisPaulo/blob/output/github-contribution-grid-snake.svg"/>
 </div>
