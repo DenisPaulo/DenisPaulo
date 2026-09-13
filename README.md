@@ -7,22 +7,15 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:denispaulo.silva@outlook.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"/>
   </a>
 </div>
 
 <br>
 
 <div align="center">
-  <p>
-    <img align="left" height="180em" style="padding-right: 10px;" 
-         src="https://github-readme-stats.vercel.app/api?username=DenisPaulo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&locale=pt-br&v=3" 
-         alt="Estatísticas GitHub"/>
-    
-    <img align="left" height="180em" 
-         src="https://github-readme-stats.vercel.app/api/top-langs/?username=DenisPaulo&layout=compact&langs_count=6&theme=tokyonight&locale=pt-br&custom_title=Tecnologias&v=3" 
-         alt="Tecnologias mais usadas"/>
-  </p>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=DenisPaulo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&locale=pt-br&hide_border=true" alt="Estatísticas GitHub"/>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DenisPaulo&layout=compact&langs_count=6&theme=tokyonight&locale=pt-br&custom_title=Tecnologias&hide_border=true" alt="Tecnologias mais usadas"/>
 </div>
 
 ---
@@ -31,7 +24,7 @@
 
 Profissional com experiência real em **automação industrial e robótica** (ABB, PLCs, manutenção preditiva) migrando para **Inteligência Artificial e Ciência de Dados**.
 
-Estudo IA na FIAP e desenvolvo projetos que unem meu conhecimento de fábrica com Python, análise de dados e machine learning — com foco em **Agricultura Digital** e **Manutenção Preditiva Industrial**.
+Estudo IA na FIAP e desenvolvo projetos que unem conhecimento de fábrica com Python, análise de dados e machine learning — com foco em **Agricultura Digital** e **Manutenção Preditiva Industrial**.
 
 ---
 
@@ -39,7 +32,7 @@ Estudo IA na FIAP e desenvolvo projetos que unem meu conhecimento de fábrica co
 
 <div align="center">
 
-### Linguagens de Programação
+### Linguagens
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -50,18 +43,16 @@ Estudo IA na FIAP e desenvolvo projetos que unem meu conhecimento de fábrica co
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6B00?style=for-the-badge)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
-### Desenvolvimento Web
+### Web
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### Banco de Dados
+### Dados & IoT
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### IoT & Sistemas Embarcados
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge)
 
-### Automação Industrial (Diferencial)
-**Robótica ABB** • **PLCs** (Rockwell, Siemens, Omron) • **Inversores de Frequência** • **Manutenção Preditiva e Corretiva**
+### Automação Industrial (diferencial)
+**Robótica ABB** · **PLCs** (Rockwell, Siemens, Omron) · **Inversores** · **Manutenção preditiva e corretiva**
 
 </div>
 
@@ -69,24 +60,44 @@ Estudo IA na FIAP e desenvolvo projetos que unem meu conhecimento de fábrica co
 
 ## 🌟 Projetos em Destaque
 
-### 🌱 FarmTech Solutions – Irrigação Inteligente para Cafeicultura
-**FIAP | Fase 2**
+### 🌱 FarmTech Solutions — Irrigação Inteligente para Cafeicultura
+**FIAP · Fase 2**
 
 Sistema de irrigação inteligente baseado nas recomendações da Embrapa. Monitora umidade, pH e NPK em tempo real + previsão de chuva via API.
 
-**Tecnologias:** ESP32 (C++), Python, R + ggplot2, OpenWeather API
+**Stack:** ESP32 (C++) · Python · R + ggplot2 · OpenWeather API
 
-[Ver Repositório](https://github.com/DenisPaulo/fase2-farmtech-irrigacao-cafe)
+[Repositório](https://github.com/DenisPaulo/fase2-farmtech-irrigacao-cafe)
 
 ---
 
-### 🤖 InduMind AI – Manutenção Preditiva com Machine Learning *(Em desenvolvimento)*
+### 🌾 CanaTech — Agricultura Digital (FIAP)
+Atividade da Fase 2 focada em solução para o setor canavieiro.
 
-Dashboard com modelos de ML para detectar anomalias e prever falhas em equipamentos industriais.
+**Stack:** Python
 
-**Tecnologias:** Python, Streamlit, Scikit-learn, XGBoost
+[Repositório](https://github.com/DenisPaulo/CanaTech)
 
-*(Repositório em breve)*
+---
+
+### 📊 Python & R Solutions — FarmTech / Agricultura Digital
+Aplicações em Python e R para agricultura digital.
+
+[Repositório](https://github.com/DenisPaulo/Python_And_R-Solutions)
+
+---
+
+### 🎮 Character Select — MapaDev Week
+Tela de seleção de personagens estilo arcade com HTML, CSS e JavaScript puro.
+
+**Demo:** [denispaulo.github.io/projeto-mapadev-week](https://denispaulo.github.io/projeto-mapadev-week/) · [Repositório](https://github.com/DenisPaulo/projeto-mapadev-week)
+
+---
+
+### 📋 Tabelas Estilizadas — HTML & CSS
+Exercício do módulo HTML e CSS Básico com tabelas temáticas.
+
+**Demo:** [denispaulo.github.io/aula-tabela](https://denispaulo.github.io/aula-tabela/) · [Repositório](https://github.com/DenisPaulo/aula-tabela)
 
 ---
 
@@ -112,7 +123,7 @@ Dashboard com modelos de ML para detectar anomalias e prever falhas em equipamen
 <div align="center">
   <h3>📫 Vamos conversar?</h3>
   <p>Aberto a oportunidades em IA, Dados, Automação Inteligente e Agrotech</p>
-  
+
   <a href="https://www.linkedin.com/in/denispaulodiassilva/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
@@ -121,5 +132,5 @@ Dashboard com modelos de ML para detectar anomalias e prever falhas em equipamen
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/DenisPaulo/DenisPaulo/output/github-contribution-grid-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/DenisPaulo/DenisPaulo/output/github-contribution-grid-snake.svg" alt="Snake contribution graph"/>
 </div>
