@@ -14,8 +14,8 @@
 <br>
 
 <div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=DenisPaulo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&locale=pt-br&hide_border=true" alt="Estatísticas GitHub"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DenisPaulo&layout=compact&langs_count=6&theme=tokyonight&locale=pt-br&custom_title=Tecnologias&hide_border=true" alt="Tecnologias mais usadas"/>
+  <img height="170em" src="https://github-readme-stats-one-bice.vercel.app/api?username=DenisPaulo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&locale=pt-br&hide_border=true" alt="Estatísticas GitHub"/>
+  <img height="170em" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=DenisPaulo&layout=compact&langs_count=6&theme=tokyonight&locale=pt-br&custom_title=Tecnologias&hide_border=true" alt="Tecnologias mais usadas"/>
 </div>
 
 ---
