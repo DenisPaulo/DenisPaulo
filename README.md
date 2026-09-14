@@ -106,7 +106,7 @@ Exercício do módulo HTML e CSS Básico com tabelas temáticas.
 **Técnico em Manutenção Eletroeletrônica** — Saint-Gobain Sekurit  
 *Março 2023 – Presente*
 
-- Manutenção e otimização de robôs ABB (disponibilidade >98%)
+- Manutenção e otimização de robôs ABB
 - Programação e diagnóstico de CLPs Rockwell, Siemens e Omron
 - Estratégias de manutenção preditiva e corretiva
 
