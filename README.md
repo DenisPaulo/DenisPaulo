@@ -63,11 +63,11 @@ Estudo IA na FIAP e desenvolvo projetos que unem conhecimento de fábrica com Py
 ### 🌱 FarmTech Solutions — Irrigação Inteligente para Cafeicultura
 **FIAP · Fase 2**
 
-Sistema de irrigação inteligente baseado nas recomendações da Embrapa. Monitora umidade, pH e NPK em tempo real + previsão de chuva via API.
+Irrigação automática no ESP32 quando solo/pH/NPK ok; suspende se a OpenWeather prevê chuva.
 
 **Stack:** ESP32 (C++) · Python · R + ggplot2 · OpenWeather API
 
-[Repositório](https://github.com/DenisPaulo/fase2-farmtech-irrigacao-cafe)
+[Repositório](https://github.com/DenisPaulo/fase2-farmtech-irrigacao-cafe) · [Vídeo](https://youtu.be/ZhRJwmskorw)
 
 ---
 
@@ -88,7 +88,7 @@ Aplicações em Python e R para agricultura digital.
 ---
 
 ### 🎮 Character Select — MapaDev Week
-Tela de seleção de personagens estilo arcade com HTML, CSS e JavaScript puro.
+Hover troca personagem grande em tempo real — 9 heróis/vilões, CSS + JS puro.
 
 **Demo:** [denispaulo.github.io/projeto-mapadev-week](https://denispaulo.github.io/projeto-mapadev-week/) · [Repositório](https://github.com/DenisPaulo/projeto-mapadev-week)
 
