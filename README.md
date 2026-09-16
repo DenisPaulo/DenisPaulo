@@ -72,16 +72,16 @@ Irrigação automática no ESP32 quando solo/pH/NPK ok; suspende se a OpenWeathe
 ---
 
 ### 🌾 CanaTech — Agricultura Digital (FIAP)
-Atividade da Fase 2 focada em solução para o setor canavieiro.
+CRUD de talhões com cálculo automático de perda (%) e prejuízo (R$), com persistência em JSON/Oracle.
 
-**Stack:** Python
+**Stack:** Python · Oracle
 
 [Repositório](https://github.com/DenisPaulo/CanaTech)
 
 ---
 
 ### 📊 Python & R Solutions — FarmTech / Agricultura Digital
-Aplicações em Python e R para agricultura digital.
+CRUD de insumos em Python + estatística e clima (Open-Meteo) em R.
 
 [Repositório](https://github.com/DenisPaulo/Python_And_R-Solutions)
 
