@@ -95,7 +95,7 @@ Hover troca personagem grande em tempo real — 9 heróis/vilões, CSS + JS puro
 ---
 
 ### 📋 Tabelas Estilizadas — HTML & CSS
-Exercício do módulo HTML e CSS Básico com tabelas temáticas.
+Tabelas Moda/Casa com tema escuro, hover e layout responsivo — CSS puro.
 
 **Demo:** [denispaulo.github.io/aula-tabela](https://denispaulo.github.io/aula-tabela/) · [Repositório](https://github.com/DenisPaulo/aula-tabela)
 
