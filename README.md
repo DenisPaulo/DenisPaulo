@@ -94,8 +94,8 @@ Hover troca personagem grande em tempo real — 9 heróis/vilões, CSS + JS puro
 
 ---
 
-### 📋 Gastos Mensais — HTML/CSS/JS
-Gastos mensais com cálculo ao vivo, status e export CSV — HTML/CSS/JS + demos.
+### 📋 Fluxo de Caixa — HTML/CSS/JS
+Fluxo de caixa (resumo, movimentações e holerite) — HTML/CSS/JS, dados anonimizados.
 
 **Demo:** [denispaulo.github.io/aula-tabela](https://denispaulo.github.io/aula-tabela/) · [Repositório](https://github.com/DenisPaulo/aula-tabela)
 
