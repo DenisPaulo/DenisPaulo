@@ -87,8 +87,8 @@ CRUD de insumos em Python + estatística e clima (Open-Meteo) em R.
 
 ---
 
-### 🎮 Character Select — MapaDev Week
-Hover troca personagem grande em tempo real — 9 heróis/vilões, CSS + JS puro.
+### 🎮 Mapadev Week — Arcade VS
+Character select arcade com VS Mode, CRT e FIGHT! — HTML/CSS/JS.
 
 **Demo:** [denispaulo.github.io/projeto-mapadev-week](https://denispaulo.github.io/projeto-mapadev-week/) · [Repositório](https://github.com/DenisPaulo/projeto-mapadev-week)
 
