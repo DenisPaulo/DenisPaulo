@@ -83,7 +83,7 @@ CRUD de talhões com cálculo automático de perda (%) e prejuízo (R$), com per
 ### 📊 Python & R Solutions — FarmTech / Agricultura Digital
 CRUD de insumos em Python + estatística e clima (Open-Meteo) em R.
 
-[Repositório](https://github.com/DenisPaulo/Python_And_R-Solutions)
+[Repositório](https://github.com/DenisPaulo/python-and-r-solutions)
 
 ---
 
@@ -97,7 +97,7 @@ Character select arcade com VS Mode, CRT e FIGHT! — HTML/CSS/JS.
 ### 📋 Fluxo de Caixa — HTML/CSS/JS
 Fluxo de caixa + simulação de RDB (juros compostos) — HTML/CSS/JS.
 
-**Demo:** [denispaulo.github.io/aula-tabela](https://denispaulo.github.io/aula-tabela/) · [Repositório](https://github.com/DenisPaulo/aula-tabela)
+**Demo:** [denispaulo.github.io/fluxo-caixa](https://denispaulo.github.io/fluxo-caixa/) · [Repositório](https://github.com/DenisPaulo/fluxo-caixa)
 
 ---
 
