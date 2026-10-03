@@ -1,7 +1,7 @@
 <div align="center">
   <h1>👋 Denis Paulo</h1>
-  <h3>Técnico em Automação Industrial → Inteligência Artificial</h3>
-  <p>Transformando experiência de chão de fábrica em soluções inteligentes com Python, Dados e Machine Learning</p>
+  <h3>Do chão de fábrica (ABB/PLC) para TI &amp; Engenharia de Dados</h3>
+  <p>Transformando experiência em automação industrial e manutenção em soluções de dados confiáveis com Python, SQL e Machine Learning</p>
 
   <a href="https://www.linkedin.com/in/denispaulodiassilva/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -22,9 +22,9 @@
 
 ## 🚀 Sobre Mim
 
-Profissional com experiência real em **automação industrial e robótica** (ABB, PLCs, manutenção preditiva) migrando para **Inteligência Artificial e Ciência de Dados**.
+Venho da **automação industrial** — robôs ABB, CLPs e manutenção — e estou migrando para **TI com foco em Engenharia de Dados**.
 
-Estudo IA na FIAP e desenvolvo projetos que unem conhecimento de fábrica com Python, análise de dados e machine learning — com foco em **Agricultura Digital** e **Manutenção Preditiva Industrial**.
+Cursando Tecnólogo em IA na FIAP, construo projetos de Python, SQL e dados, e levo do chão de fábrica o cuidado com confiabilidade, dados de sensores e processos que não podem parar.
 
 ---
 
@@ -49,6 +49,8 @@ Estudo IA na FIAP e desenvolvo projetos que unem conhecimento de fábrica com Py
 
 ### Dados & IoT
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge)
 
 ### Automação Industrial (diferencial)
@@ -59,6 +61,34 @@ Estudo IA na FIAP e desenvolvo projetos que unem conhecimento de fábrica com Py
 ---
 
 ## 🌟 Projetos em Destaque
+
+### 🔧 Manutenção Preditiva com IA — Previsão de falhas com XGBoost + SHAP
+[![CI](https://github.com/DenisPaulo/manutencao-preditiva-ia/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisPaulo/manutencao-preditiva-ia/actions/workflows/ci.yml)
+
+"Com essas leituras dos sensores, a máquina vai falhar? E por quê?" — modelo XGBoost treinado no dataset **AI4I 2020 (UCI)**, com explicação de cada previsão via **SHAP** e painel interativo em Streamlit.
+
+**No teste:** recall **0,824** · precisão **0,757** · F1 **0,789** · PR-AUC **0,884**
+
+**Stack:** Python · XGBoost · SHAP · scikit-learn · Streamlit
+
+**Demo:** [painel no Streamlit](https://manutencao-preditiva-ia-3xvamtyr7vvjvcxdbsdnze.streamlit.app/) · [Repositório](https://github.com/DenisPaulo/manutencao-preditiva-ia)
+
+---
+
+### 🏭 Pipeline de Dados Industriais — ETL com PostgreSQL e Docker
+[![CI](https://github.com/DenisPaulo/pipeline-dados-industriais/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisPaulo/pipeline-dados-industriais/actions/workflows/ci.yml)
+
+Pipeline de engenharia de dados para sensores industriais: ingestão do **AI4I 2020** mais leituras simuladas, **Parquet** particionado, limpeza com regras explícitas e carga **idempotente** em **PostgreSQL 16**, tudo reproduzível com **Docker Compose**.
+
+**Resultado real:** 26.271 linhas lidas · 24.511 válidas · 1.760 descartadas · 18 máquinas · 586 falhas
+
+**Stack:** Python · Pandas · Parquet · PostgreSQL · Docker · pytest · GitHub Actions
+
+**Próximos passos:** dbt + qualidade de dados + painel (V2), Airflow + nuvem (V3)
+
+[Repositório](https://github.com/DenisPaulo/pipeline-dados-industriais)
+
+---
 
 ### 🌱 FarmTech Solutions — Irrigação Inteligente para Cafeicultura
 **FIAP · Fase 2**
@@ -122,7 +152,7 @@ Fluxo de caixa + simulação de RDB (juros compostos) — HTML/CSS/JS.
 
 <div align="center">
   <h3>📫 Vamos conversar?</h3>
-  <p>Aberto a oportunidades em IA, Dados, Automação Inteligente e Agrotech</p>
+  <p>Aberto a oportunidades em Engenharia de Dados, IA, Dados, Automação Inteligente e Agrotech</p>
 
   <a href="https://www.linkedin.com/in/denispaulodiassilva/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
