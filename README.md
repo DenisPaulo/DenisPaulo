@@ -26,6 +26,8 @@ Venho da **automação industrial** — robôs ABB, CLPs e manutenção — e es
 
 Cursando Tecnólogo em IA na FIAP, construo projetos de Python, SQL e dados, e levo do chão de fábrica o cuidado com confiabilidade, dados de sensores e processos que não podem parar.
 
+Hoje meu foco é uma vaga de **estágio ou júnior em Engenharia de Dados**: pipelines com SQL, dbt, Airflow e Databricks (PySpark + Delta Lake).
+
 ---
 
 ## 🛠️ Tecnologias & Habilidades
@@ -47,10 +49,17 @@ Cursando Tecnólogo em IA na FIAP, construo projetos de Python, SQL e dados, e l
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### Dados & IoT
+### Engenharia de Dados
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark%20%2F%20PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD4?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### IoT
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge)
 
 ### Automação Industrial (diferencial)
@@ -62,6 +71,31 @@ Cursando Tecnólogo em IA na FIAP, construo projetos de Python, SQL e dados, e l
 
 ## 🌟 Projetos em Destaque
 
+### 🏭 Pipeline de Dados Industriais — do ETL ao Databricks
+[![CI](https://github.com/DenisPaulo/pipeline-dados-industriais/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisPaulo/pipeline-dados-industriais/actions/workflows/ci.yml)
+
+Portfólio de engenharia de dados construído em versões, sempre sobre o mesmo domínio: leituras de sensores e falhas de máquinas (**AI4I 2020** + leituras simuladas).
+
+| Versão | Entrega | Status |
+|---|---|---|
+| **V1** | ETL em Python → **Parquet** particionado → carga **idempotente** em **PostgreSQL 16**, com **Docker Compose** e CI no GitHub Actions | ✅ Feito |
+| **V2** | **dbt** em camadas `staging` → `intermediate` → `marts` (modelo estrela) · `dbt build` com **PASS=63** (7 modelos + 56 testes) | ✅ Feito |
+| **V3** | Orquestração com **Airflow** (DAG ETL → `dbt build`, alerta de falha) + testes de freshness e volume | ✅ Feito |
+| **V4** | **Databricks** com **PySpark** + **Delta Lake**, arquitetura medallion **bronze → silver → gold**, Job `pipeline-industrial` e dashboard **AI/BI** · [repositório](https://github.com/DenisPaulo/pipeline-industrial-databricks) | ✅ Feito |
+| **V5** | Nuvem: armazenamento (ADLS ou S3), IAM e custos | 🔜 Próximo |
+
+**Resultado real:** 26.271 linhas lidas · 24.511 válidas · 1.760 descartadas · 18 máquinas · 586 falhas
+
+<a href="https://github.com/DenisPaulo/pipeline-industrial-databricks">
+  <img src="https://raw.githubusercontent.com/DenisPaulo/pipeline-industrial-databricks/main/docs/img/dashboard_databricks.png" alt="Dashboard AI/BI no Databricks sobre as tabelas gold" width="800"/>
+</a>
+
+**Stack:** Python · Pandas · SQL · PostgreSQL · dbt · Airflow · Databricks · PySpark · Delta Lake · Docker · pytest · GitHub Actions
+
+[Repositório](https://github.com/DenisPaulo/pipeline-dados-industriais) · [Roadmap](https://github.com/DenisPaulo/pipeline-dados-industriais/blob/main/docs/ROADMAP.md) · [V4 no Databricks](https://github.com/DenisPaulo/pipeline-industrial-databricks)
+
+---
+
 ### 🔧 Manutenção Preditiva com IA — Previsão de falhas com XGBoost + SHAP
 [![CI](https://github.com/DenisPaulo/manutencao-preditiva-ia/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisPaulo/manutencao-preditiva-ia/actions/workflows/ci.yml)
 
@@ -72,21 +106,6 @@ Cursando Tecnólogo em IA na FIAP, construo projetos de Python, SQL e dados, e l
 **Stack:** Python · XGBoost · SHAP · scikit-learn · Streamlit
 
 **Demo:** [painel no Streamlit](https://manutencao-preditiva-ia-3xvamtyr7vvjvcxdbsdnze.streamlit.app/) · [Repositório](https://github.com/DenisPaulo/manutencao-preditiva-ia)
-
----
-
-### 🏭 Pipeline de Dados Industriais — ETL com PostgreSQL e Docker
-[![CI](https://github.com/DenisPaulo/pipeline-dados-industriais/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisPaulo/pipeline-dados-industriais/actions/workflows/ci.yml)
-
-Pipeline de engenharia de dados para sensores industriais: ingestão do **AI4I 2020** mais leituras simuladas, **Parquet** particionado, limpeza com regras explícitas e carga **idempotente** em **PostgreSQL 16**, tudo reproduzível com **Docker Compose**.
-
-**Resultado real:** 26.271 linhas lidas · 24.511 válidas · 1.760 descartadas · 18 máquinas · 586 falhas
-
-**Stack:** Python · Pandas · Parquet · PostgreSQL · Docker · pytest · GitHub Actions
-
-**Próximos passos:** dbt + qualidade de dados + painel (V2), Airflow + nuvem (V3)
-
-[Repositório](https://github.com/DenisPaulo/pipeline-dados-industriais)
 
 ---
 
@@ -148,11 +167,14 @@ Fluxo de caixa + simulação de RDB (juros compostos) — HTML/CSS/JS.
 - **Análise e Desenvolvimento de Software** — Centro Universitário FAM (Ago 2021 – Dez 2023)
 - **Técnico em Eletrotécnica** — Instituto Edson (2014 – 2015)
 
+### Cursos
+- **Get Started with Data Engineering** — Databricks Academy (Out 2026) — *Concluído*
+
 ---
 
 <div align="center">
   <h3>📫 Vamos conversar?</h3>
-  <p>Aberto a oportunidades em Engenharia de Dados, IA, Dados, Automação Inteligente e Agrotech</p>
+  <p>Aberto a oportunidades de estágio ou júnior em Engenharia de Dados</p>
 
   <a href="https://www.linkedin.com/in/denispaulodiassilva/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
