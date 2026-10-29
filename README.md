@@ -1,6 +1,6 @@
 <div align="center">
   <h1>👋 Denis Paulo</h1>
-  <h3>Do chão de fábrica (ABB/PLC) para TI &amp; Engenharia de Dados</h3>
+  <h3>Da manutenção industrial (ABB/PLC) para TI &amp; Engenharia de Dados</h3>
   <p>Transformando experiência em automação industrial e manutenção em soluções de dados confiáveis com Python, SQL e Machine Learning</p>
 
   <a href="https://www.linkedin.com/in/denispaulodiassilva/" target="_blank">
@@ -24,7 +24,7 @@
 
 Venho da **automação industrial** — robôs ABB, CLPs e manutenção — e estou migrando para **TI com foco em Engenharia de Dados**.
 
-Cursando Tecnólogo em IA na FIAP, construo projetos de Python, SQL e dados, e levo do chão de fábrica o cuidado com confiabilidade, dados de sensores e processos que não podem parar.
+Cursando Tecnólogo em IA na FIAP, construo projetos de Python, SQL e dados, e levo da indústria o cuidado com confiabilidade, dados de sensores e processos que não podem parar.
 
 Hoje meu foco é uma vaga de **estágio ou júnior em Engenharia de Dados**: pipelines com SQL, dbt, Airflow e Databricks (PySpark + Delta Lake).
 
@@ -44,6 +44,9 @@ Hoje meu foco é uma vaga de **estágio ou júnior em Engenharia de Dados**: pip
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6B00?style=for-the-badge)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8%20(Ultralytics)-00FFFF?style=for-the-badge&logoColor=black)
+![ECharts](https://img.shields.io/badge/ECharts-AA344D?style=for-the-badge&logo=apacheecharts&logoColor=white)
 
 ### Web
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -58,6 +61,11 @@ Hoje meu foco é uma vaga de **estágio ou júnior em Engenharia de Dados**: pip
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark%20%2F%20PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD4?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
+
+### Nuvem
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 
 ### IoT
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge)
@@ -82,7 +90,7 @@ Portfólio de engenharia de dados construído em versões, sempre sobre o mesmo 
 | **V2** | **dbt** em camadas `staging` → `intermediate` → `marts` (modelo estrela) · `dbt build` com **PASS=63** (7 modelos + 56 testes) | ✅ Feito |
 | **V3** | Orquestração com **Airflow** (DAG ETL → `dbt build`, alerta de falha) + testes de freshness e volume | ✅ Feito |
 | **V4** | **Databricks** com **PySpark** + **Delta Lake**, arquitetura medallion **bronze → silver → gold**, Job `pipeline-industrial` e dashboard **AI/BI** · [repositório](https://github.com/DenisPaulo/pipeline-industrial-databricks) | ✅ Feito |
-| **V5** | Nuvem: armazenamento (ADLS ou S3), IAM e custos | 🔜 Próximo |
+| **V5** | Nuvem: armazenamento (ADLS ou S3), IAM e custos — primeiros passos em **AWS** (S3, SNS, CloudFormation) na FIAP | 🟡 Em andamento |
 
 **Resultado real:** 26.271 linhas lidas · 24.511 válidas · 1.760 descartadas · 18 máquinas · 586 falhas
 
@@ -96,27 +104,39 @@ Portfólio de engenharia de dados construído em versões, sempre sobre o mesmo 
 
 ---
 
-### 🔧 Manutenção Preditiva com IA — Previsão de falhas com XGBoost + SHAP
+### 🔧 Manutenção Preditiva com IA — Falhas e vida útil remanescente com XGBoost + SHAP
 [![CI](https://github.com/DenisPaulo/manutencao-preditiva-ia/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisPaulo/manutencao-preditiva-ia/actions/workflows/ci.yml)
 
-"Com essas leituras dos sensores, a máquina vai falhar? E por quê?" — modelo XGBoost treinado no dataset **AI4I 2020 (UCI)**, com explicação de cada previsão via **SHAP** e painel interativo em Streamlit.
+"A máquina vai falhar? Quantos ciclos ela ainda aguenta? E por quê?" — modelos XGBoost com explicação de cada previsão via **SHAP** e painel interativo em Streamlit.
 
-**No teste:** recall **0,824** · precisão **0,757** · F1 **0,789** · PR-AUC **0,884**
+| Versão | Entrega | Resultado no teste |
+|---|---|---|
+| **V1** | Classificação de falhas no dataset **AI4I 2020 (UCI)** | recall **0,824** · precisão **0,757** · F1 **0,789** · PR-AUC **0,884** |
+| **V2** | Previsão de **vida útil remanescente (RUL)** no **NASA C-MAPSS FD001** com `XGBRegressor`, SHAP em ciclos e aba nova no Streamlit | RMSE **11,13 ciclos** · MAE **8,31** · R² **0,923** · NASA Score **176,8** |
 
-**Stack:** Python · XGBoost · SHAP · scikit-learn · Streamlit
+**22 testes** automatizados no CI (GitHub Actions).
+
+**Stack:** Python · Pandas · XGBoost · SHAP · scikit-learn · Streamlit · pytest
 
 **Demo:** [painel no Streamlit](https://manutencao-preditiva-ia-3xvamtyr7vvjvcxdbsdnze.streamlit.app/) · [Repositório](https://github.com/DenisPaulo/manutencao-preditiva-ia)
 
 ---
 
-### 🌱 FarmTech Solutions — Irrigação Inteligente para Cafeicultura
-**FIAP · Fase 2**
+### 🌱 FarmTech Solutions (FIAP) — Agricultura digital do sensor à nuvem
+**Trabalho em grupo · turma 1TIAOB**
 
-Irrigação automática no ESP32 quando solo/pH/NPK ok; suspende se a OpenWeather prevê chuva.
+Projeto contínuo do curso, evoluído fase a fase sobre a mesma empresa fictícia de agronegócio.
 
-**Stack:** ESP32 (C++) · Python · R + ggplot2 · OpenWeather API
+| Fase | Entrega | Links |
+|---|---|---|
+| **Fase 2** | Irrigação inteligente para café: ESP32/Wokwi (C++) aciona a bomba conforme solo/pH/NPK e suspende se a OpenWeather prevê chuva; análise em R | [Repositório](https://github.com/DenisPaulo/fase2-farmtech-irrigacao-cafe) · [Vídeo](https://youtu.be/ZhRJwmskorw) |
+| **Fase 3** | Banco de dados estruturado em **Oracle/SQL** e CRUD de sensores agrícolas em Python | [Repositório](https://github.com/DenisPaulo/fase3-farmtech-banco-dados) |
+| **Fase 4** | Dashboard interativa em **Streamlit** e modelos **Scikit-Learn** para manejo de irrigação e estimativa de produtividade | [Repositório](https://github.com/DenisPaulo/fase4-farmtech-dashboard-ml) |
+| **Fase 5** | Arquitetura **AWS** com CloudFormation, IAM de menor privilégio, comparativo de custos (us-east-1 × sa-east-1) e sanitização de telemetria IoT | [Repositório](https://github.com/DenisPaulo/fase5-farmtech-cloud-aws) |
+| **Fase 6** | Visão computacional com **YOLOv8** para detecção de ferrugem, broca e maturação no café | [Repositório](https://github.com/DenisPaulo/fase6-farmtech-visao-yolo) |
+| **Fase 7** | Consolidação das fases em uma solução integrada | 🔒 Privado |
 
-[Repositório](https://github.com/DenisPaulo/fase2-farmtech-irrigacao-cafe) · [Vídeo](https://youtu.be/ZhRJwmskorw)
+**Stack:** ESP32 (C++) · Python · R · Oracle · Streamlit · scikit-learn · AWS · YOLOv8
 
 ---
 
@@ -147,6 +167,15 @@ Character select arcade com VS Mode, CRT e FIGHT! — HTML/CSS/JS.
 Fluxo de caixa + simulação de RDB (juros compostos) — HTML/CSS/JS.
 
 **Demo:** [denispaulo.github.io/fluxo-caixa](https://denispaulo.github.io/fluxo-caixa/) · [Repositório](https://github.com/DenisPaulo/fluxo-caixa)
+
+---
+
+## 🔒 Projetos privados (manutenção industrial)
+
+Projetos pessoais sem link público, construídos com **dados simulados**:
+
+- **Pipeline de ordens de serviço em camadas** — arquitetura **bronze → silver → gold** para ordens de serviço de manutenção, com SQL, testes de qualidade e dashboard.
+- **Monitor de OS com indicadores de confiabilidade** — indicadores no padrão **ISO 14224 / SMRP**: MTBF, MTTR, disponibilidade, backlog e Pareto de falhas.
 
 ---
 
